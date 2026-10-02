@@ -1,0 +1,32 @@
+{
+  "shot": {
+    "id": "SHOT-1",
+    "type": "info_dense",
+    "route": "code",
+    "route_reason": "季度数据汇报片：图表动画+数字节奏需精确控制，改数据重跑网页版",
+    "has_realistic_elements": false
+  },
+  "meta_directive": {
+    "exists": true,
+    "business_version": "季度数据汇报片",
+    "reused": true,
+    "hard_constraints": ["平移镜头留安全边距禁黑边", "装饰元素禁盖字幕区", "时间轴同段单事件"]
+  },
+  "pipeline": {
+    "stage": "encode",
+    "shot_screenshots_done": true,
+    "human_review_passed": true,
+    "audio_stage_blocked_until_review": true
+  },
+  "delivery": {
+    "index_html": true,
+    "srt": true,
+    "shot_screenshots": true,
+    "reusable_scripts": true
+  },
+  "budget": {
+    "think_tier": "max",
+    "task_size": "long",
+    "within_quota_reset_window": true
+  }
+}

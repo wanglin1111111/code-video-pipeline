@@ -1,0 +1,32 @@
+{
+  "shot": {
+    "id": "SHOT-1",
+    "type": "realistic",
+    "route": "code",
+    "route_reason": "",
+    "has_realistic_elements": true
+  },
+  "meta_directive": {
+    "exists": true,
+    "business_version": "产品功能演示片",
+    "reused": false,
+    "hard_constraints": []
+  },
+  "pipeline": {
+    "stage": "audio",
+    "shot_screenshots_done": false,
+    "human_review_passed": false,
+    "audio_stage_blocked_until_review": false
+  },
+  "delivery": {
+    "index_html": true,
+    "srt": false,
+    "shot_screenshots": false,
+    "reusable_scripts": true
+  },
+  "budget": {
+    "think_tier": "low",
+    "task_size": "long",
+    "within_quota_reset_window": false
+  }
+}
